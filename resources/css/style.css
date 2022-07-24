@@ -1,0 +1,195 @@
+html {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Lexend Mega', sans-serif;
+    font-size: 18px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+header nav {
+    margin-bottom: 50px;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 55rem;
+}
+
+header li {
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+header li a {
+    color:  black;
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+    height: 350px;
+    /* border: 1px solid black; */
+    margin-bottom: 70px;
+    background-image: url(../images/skyscrapers.jpg);
+}
+
+main .main-text {
+    box-sizing: border-box;
+    background-color: white;
+    height: 110px;
+    width: 100%;
+    padding: 10px;
+}
+
+main .main-text h2 {
+    font-size: 2rem;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+main .main-text p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.a {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.a h2 {
+    font-size: 2rem;
+    margin-top: 5px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.a p {
+    font-size: 1.3rem;
+    font-weight: 450;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.a .flex-a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    /* height: 360px; */
+    height: 290px;
+    /* border: 1px solid black; */
+}
+
+.a .flex-a .item {
+    display: flex;
+    align-items: center;
+    width: 450px;
+    /* border: 1px solid black; */
+}
+
+.a .item img {
+    /* width: 250px;
+    height: 150px; */
+    width: 220px;
+    height: 120px;
+    margin-right: 15px;
+}
+
+.team-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.team-div h2 {
+    font-size: 2rem;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.team-div .team-members {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid black;
+    height: 520px;
+    background-image: url(../images/blurred-road.jpg);
+}
+
+.team-div .member {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    width: 250px;
+}
+
+.team-div .member img {
+    height: 20rem;
+    width: auto;
+}
+
+footer {
+    /* border: 1px solid black; */
+    height: 300px;
+    text-align: center;
+}
+
+footer p {
+    font-weight: 500;
+}
+
+footer h2 {
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    font-weight: 450;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer .email {
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+
+footer .phone {
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    margin-bottom: 95px;
+}
+
+footer .last-item {
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
